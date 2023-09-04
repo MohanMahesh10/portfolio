@@ -4,13 +4,7 @@
  * To contain application wide settings, routes, state, etc.
  */
 
-import React from "react";
 
-import About from "./Components/About";
-import Footer from "./Components/Footer";
-import Header from "./Components/Header";
-import Home from "./Components/Home";
-import Portfolio from "./Components/Portfolio";
 
 import "./styles.css";
 
@@ -23,31 +17,17 @@ import "./styles.css";
  *
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
-const siteProps = {
-  name: "Alexandrie Grenier",
-  title: "Web Designer & Content Creator",
-  email: "alex@example.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
-  medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+export const siteProps = {
+    name: "Boggavarapu Mohan Mahesh",
+    title: "Microsoft Learn Student Ambassador",
+    email: "boggavarapumohanmahesh@gmail.com",
+    gitHub: "MohanMahesh10",
+    instagram: "mmrobo.143",
+    linkedIn: "Mohan Mahesh Boggavarapu",
+    medium: "",
+    twitter: "MohanMahesh1008",
+    youTube: "Code",
 };
 
-const primaryColor = "#4E567E";
-const secondaryColor = "#D2F1E4";
-
-const App = () => {
-  return (
-    <div id="main">
-      <Header />
-      <Home name={siteProps.name} title={siteProps.title} />
-      <About />
-      <Portfolio />
-      <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
-    </div>
-  );
-};
-
-export default App;
+export const primaryColor = "#4E567E";
+export let secondaryColor = "#D2F1E4";
