@@ -17,43 +17,6 @@ import React from "react";
  * freely use on your site.
  */
 import image from "../images/motion-background.jpg";
-import React from "react";
-import React from "react";
-import React from "react";
-import React from "react";
-import React from "react";
-import React from "react";
-import { siteProps, primaryColor, secondaryColor } from "../App";
-import About from "./Components/About";
-import About from "./Components/About";
-import About from "./Components/About";
-import About from "./Components/About";
-import About from "./Components/About";
-import About from "./Components/About";
-import Footer from "./Components/Footer";
-import Footer from "./Components/Footer";
-import Footer from "./Components/Footer";
-import Footer from "./Components/Footer";
-import Footer from "./Components/Footer";
-import Footer from "./Components/Footer";
-import Header from "./Components/Header";
-import Header from "./Components/Header";
-import Header from "./Components/Header";
-import Header from "./Components/Header";
-import Header from "./Components/Header";
-import Header from "./Components/Header";
-import Home from "./Components/Home";
-import Home from "./Components/Home";
-import Home from "./Components/Home";
-import Home from "./Components/Home";
-import Home from "./Components/Home";
-import Home from "./Components/Home";
-import Portfolio from "./Components/Portfolio";
-import Portfolio from "./Components/Portfolio";
-import Portfolio from "./Components/Portfolio";
-import Portfolio from "./Components/Portfolio";
-import Portfolio from "./Components/Portfolio";
-import Portfolio from "./Components/Portfolio";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -68,12 +31,12 @@ const description =
  * passionate about, or enjoy,
  */
 const skillsList = [
-    "Web design",
-    "User experience",
-    "Inclusive design",
-    "Focus group testing",
-    "Mobile user interfaces",
-    "Graphic design",
+    "Cloud Computing",
+    "Machine Learning",
+    "C Programming",
+    "Java",
+    "Python",
+    "Leadership",
 ];
 
 /**
@@ -82,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-    "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+    "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my Leadership experience I continually look for new and better ways to make tech accessible by all.";
 
 const About = () => {
     return ( <
@@ -132,24 +95,3 @@ const About = () => {
 };
 
 export default About;
-const App = () => {
-    return ( <
-        div id = "main" >
-        <
-        Header / >
-        <
-        Home name = { siteProps.name }
-        title = { siteProps.title }
-        /> <About / >
-        <
-        Portfolio / >
-        <
-        Footer {...siteProps }
-        primaryColor = { primaryColor }
-        secondaryColor = { secondaryColor }
-        /> < / > div >
-    );
-};
-
-export default App; < />);
-};
