@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -31,12 +31,12 @@ const description =
  * passionate about, or enjoy,
  */
 const skillsList = [
-    "Cloud Computing",
-    "Machine Learning",
-    "C Programming",
-    "Java",
-    "Python",
-    "Leadership",
+    "Web design",
+    "User experience",
+    "Inclusive design",
+    "Focus group testing",
+    "Mobile user interfaces",
+    "Graphic design",
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-    "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my Leadership experience I continually look for new and better ways to make tech accessible by all.";
+    "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
 
 const About = () => {
     return ( <
